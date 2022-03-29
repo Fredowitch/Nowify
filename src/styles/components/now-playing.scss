@@ -5,7 +5,7 @@
  *
  */
 body {
-  font-family: "SF Pro Rounded"; 
+  font-family: "SF Pro Rounded" !important;
 }
 .now-playing {
   background-color: var(--colour-background-now-playing);
@@ -24,7 +24,7 @@ body {
   }
 
   &__cover {
-    max-width: 800px;
+    max-width: 400px;
   }
 
   &__image {
@@ -32,7 +32,7 @@ body {
     height: auto;
     max-width: 60vw;
     border-radius: 14px;
-    width: 150%;
+    width: 100%;
   }
 
   &__details {
