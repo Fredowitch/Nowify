@@ -4,6 +4,9 @@
  * Styles for the 'Now Playing' screen.
  *
  */
+body {
+  font-family: "SF Pro Rounded"; 
+}
 .now-playing {
   background-color: var(--colour-background-now-playing);
   color: var(--color-text-primary);
@@ -29,7 +32,7 @@
     height: auto;
     max-width: 60vw;
     border-radius: 14px;
-    width: 100%;
+    width: 150%;
   }
 
   &__details {
